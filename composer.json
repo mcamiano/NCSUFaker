@@ -1,0 +1,24 @@
+{
+    "name": "mcamiano/ncsu-faker",
+    "type": "library",
+    "description": "Create random NCSU test seed data via fzaniotto/Faker.",
+    "homepage": "https://github.com/mcamiano/ncsu-faker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mcamiano",
+            "email": "mitchellamiano@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/Faker": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NCSUFaker\\": "src/"
+        }
+    }
+}
